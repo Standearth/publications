@@ -14,6 +14,7 @@ const isLiveReload = !!process.env.LIVERELOAD;
 const isDev = isWatch || isLiveReload;
 const isProduction = !isDev;
 const isHot = isWatch && !isLiveReload;
+const title = !process.env.TITLE;
 
 const preprocess = sveltePreprocess({
   postcss: {
