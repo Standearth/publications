@@ -26,12 +26,18 @@
         <div class="layercake-annotation" style="border-left:2px solid #F47F27;top:{d.top};left:{d.left};z-index:999;">
           <Icon name="{d.icon}" stroke="{d.color}" stroke-width="3" width="{d.width}" height="{d.width*2.5}" />
         </div>
-      {:else}
+        {:else if d.title}
         <div
           class="layercake-annotation"
           data-id="{i}"
           style="{fillStyle(d)};color:{d.color}"
-        ><h4>{d.text}</h4></div>
+        ><h4>{d.title}</h4></div>
+        {:else}
+        <div
+          class="layercake-annotation"
+          data-id="{i}"
+          style="{fillStyle(d)};color:{d.color};"
+        ><p>{d.text}</p></div>
       {/if}
       
     {/each}

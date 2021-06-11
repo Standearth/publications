@@ -32,12 +32,12 @@
 
     const annotations = [
     {
-      text: 'Fossil Fuel Royalties between 2016 and 2020',
+      title: 'Fossil Fuel Royalties between 2016 and 2020',
       top: '-10%',
       left: '0%',
       color:"var(--white)"
     }
-  ];
+    ];
   </script>
   
   <style>

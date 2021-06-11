@@ -3,13 +3,12 @@ div.svelte-1u9nfei,slot.svelte-1u9nfei{position:absolute;top:0;left:0}
 svg.svelte-ocozda{position:absolute;width:100%;height:100%;overflow:visible}svg.svelte-ocozda *{vector-effect:non-scaling-stroke}
 svg.svelte-17l4rdd{position:absolute;top:0;left:0;overflow:visible}
 .overflow-noscroll{overflow:hidden;padding-right:0px}
-.chart-container.svelte-ii7kd6{width:100%;height:100%;position:relative}
 .chart-container.svelte-10413j4{width:100%;height:100%}
+.chart-container.svelte-ii7kd6{width:100%;height:100%;position:relative}
 .layercake-annotation.svelte-1rlmkgg{position:absolute;padding-left:5px}
 .tick.svelte-wkvv6c.svelte-wkvv6c{font-size:.725em;font-weight:200}line.svelte-wkvv6c.svelte-wkvv6c,.tick.svelte-wkvv6c line.svelte-wkvv6c{stroke:#aaa;stroke-dasharray:2}.tick.svelte-wkvv6c text.svelte-wkvv6c{fill:var(--text-color);font-family:var(--bs-font-sans-serif);font-size:1rem;font-weight:bold}.tick.svelte-wkvv6c .tick-mark.svelte-wkvv6c,.baseline.svelte-wkvv6c.svelte-wkvv6c{stroke-dasharray:0}.axis.snapTicks.svelte-wkvv6c .tick:last-child text.svelte-wkvv6c{transform:translateX(3px)}.axis.snapTicks.svelte-wkvv6c .tick.tick-0 text.svelte-wkvv6c{transform:translateX(-3px)}
 .tick.svelte-14zwh6g.svelte-14zwh6g{font-size:.725em;font-weight:200}.tick.svelte-14zwh6g line.svelte-14zwh6g{stroke:#aaa}.tick.svelte-14zwh6g .gridline.svelte-14zwh6g{stroke-dasharray:2}.tick.svelte-14zwh6g text.svelte-14zwh6g{fill:var(--text-color);font-family:var(--bs-font-sans-serif)}.tick.tick-0.svelte-14zwh6g line.svelte-14zwh6g{stroke-dasharray:0}
 p.svelte-5a3d4t{font-size:0.7rem;font-weight:bold;position:absolute;font-family:var(--bs-font-sans-serif);margin:0;line-height:1;transform:translate(-50%, 50%)}
-.path-line.svelte-8t4fc1{fill:none;stroke-linejoin:round;stroke-linecap:round;stroke-width:4}
 div.svelte-1odt0i2{margin-bottom:2rem}img.svelte-1odt0i2{width:20rem}td.svelte-1odt0i2:nth-child(2),th.svelte-1odt0i2:nth-child(2){text-align:right;padding:0.5em}
 p.svelte-omfgrc{position:absolute;margin:0;line-height:1;transform:translate(-50%, 50%)}
 .chart-container.svelte-1sls8yb{width:50%;max-width:480px}figure.svelte-1sls8yb{position:relative;width:100%}

@@ -43,6 +43,8 @@
     years.push(d[xKey]);
   });
 
+  var xDomain={years}
+
 </script>
 
 <div class="chart-container">

@@ -3,7 +3,7 @@
     import Boundary from "../helpers/Boundary.svelte";
     import Text from "./Text.svelte";
     import summary from "./../../data/summary.json";
-    import LineChart from "./../charts/LineChart.svelte";
+    import AreaChart from "./../charts/AreaChart.svelte";
     import { Col, Container, Row } from 'sveltestrap';
     export let boundary_orientation, background, left_spacing, color;
   </script>
@@ -17,7 +17,7 @@
       <Row>
         <Col sm=12 md=6>
           <div class="section-chart">
-            <LineChart />
+            <AreaChart />
           </div>
         </Col>
         <Col sm=12 md=6>
