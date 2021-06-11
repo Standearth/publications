@@ -6,7 +6,7 @@
   // Grab some helpful functions
   const { data, xGet, yGet, xScale } = getContext("LayerCake");
   function pickLabel(d) {
-    if (d.Year == '2016/17' || d.Year == '2017/18' || d.Year == '2018/19') {
+    if (d.Year == '16/17' || d.Year == '17/18' || d.Year == '18/19') {
       return "$"+Math.round((d.Subsidies) * 100) / 100+"M";
     } else {
       return "$"+Math.round((d.Subsidies/1000) * 100) / 100+"B";
@@ -26,6 +26,7 @@
     font-size:0.7rem;
     font-weight:bold;
 		position: absolute;
+    font-family: var(--bs-font-sans-serif);
 		margin: 0;
 		line-height: 1;
 		transform: translate(-50%, 50%);

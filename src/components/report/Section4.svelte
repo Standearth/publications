@@ -29,15 +29,36 @@
             <Text copy={summary.section_4_copy_2} {color}/>
           </div>
         </Col>
-
       </Row>
     </Container>
-    <img alt="fracking flare" src="assets/img/flare.jpeg" style="width:100%;">
+    <div id="flare" style="background-image:url('assets/img/flare.jpeg');width:100%;">
+    <Container>
+        <Row>
+      <Col sm=12 lg=6>
+        <div class="section-copy">
+          <Text copy={summary.section_4_copy_3} color="#fff"/>
+        </div>
+      </Col>
+    </Row>
+  </Container>
+    </div>
+    
   </section>
   
   <style>
     .copy {
         background: var(--section-background);
+    }
+
+    #flare {
+        padding-bottom:4rem;
+        padding-top:2rem;
+        background-position:cover;
+        width:100%;
+        min-height:100px;
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover;
     }
 
     .section-chart {

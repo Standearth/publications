@@ -70,6 +70,7 @@
 
   .tick text {
     fill:var(--text-color);
+    font-family: var(--bs-font-sans-serif);
   }
 
   .tick.tick-0 line {

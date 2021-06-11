@@ -2,19 +2,21 @@
   import { getContext } from 'svelte';
 
   const { data, xGet, yGet, xScale, yScale, yRange } = getContext('LayerCake');
-  export let fill = '#00bbff';
+  export let fill = 'rgb(244, 127, 39)';
 
   $: columnHeight = d => {
     return $yRange[0] - $yGet(d);
   };
 
   $: fillColor = d => {
-    if (d.Year == '2021/22' || d.Year == '2022/23' || d.Year == '2023/24') {
-      return "rgba(0,187,255,0.4)";
+    if (d.Year == '21/22' || d.Year == '22/23' || d.Year == '23/24') {
+      return "rgba(244, 127, 39,0.4)";
+    } else if (d.Year == '16/17' || d.Year == '17/18') {
+      return "#EE2451";
     } else {
       return fill;
     }
-    
+     
   };
 
 </script>

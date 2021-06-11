@@ -75,6 +75,9 @@
 
   .tick text {
     fill: var(--text-color);
+    font-family: var(--bs-font-sans-serif);
+    font-size:1rem;
+    font-weight:bold;
   }
 
   .tick .tick-mark,
