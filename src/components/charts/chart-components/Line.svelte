@@ -4,20 +4,21 @@
   
     import { getContext } from 'svelte';
   
-    const { data, xGet, yScale, xScale, zGet } = getContext('LayerCake');
-  
+    const { data, xGet, yGet, yScale, xScale, zGet } = getContext('LayerCake');
+    console.log($data);
     $: lineGen = line()
       .x(d => $xGet(d)+($xScale.bandwidth() / 2))
-      .y(d => $yScale(d[1]));
+      .y(d => $yScale(d.data['Deep-Well Royalty Credits']));
+
   </script>
   
-  <g class="area-group">
+  <g class="line-group">
     {#each $data as d}
     {#if d.key == 'Deep-Well Royalty Credits'}
       <path
         class='path-line'
         d='{lineGen(d)}'
-        stroke="red"
+        stroke='red'
         stroke-width="3"
         fill=none
       ></path>

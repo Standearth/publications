@@ -34,6 +34,10 @@
         background: var(--section-background);
         padding-bottom:4rem;
     }
+
+    .section-copy {
+      margin-top:3rem;
+    }
     .section-chart {
       width:100%;
       height:80%;

@@ -37,6 +37,8 @@
       .keys(seriesNames);
   
     const series = stackData(data);
+
+    console.log(series);
   
     const formatTickY = d => format(`.${precisionFixed(d)}s`)(d);
 
@@ -49,26 +51,26 @@
     },
     {
       text: 'Natural gas royalties',
-      top: '90%',
-      left: '7%',
+      top: '85%',
+      left: '10%',
       color:"var(--white)"
     },
     {
       text: 'Oil and Gas Commission',
-      top: '79%',
-      left: '7%',
+      top: '72%',
+      left: '10%',
       color:"var(--stand-secondary)"
     },
     {
       text: 'Petroleum royalties',
-      top: '72%',
-      left: '7%',
+      top: '63%',
+      left: '10%',
       color:"var(--stand-secondary)"
     },
     {
       title: 'Deep Well Royalty Credits',
-      top: '10%',
-      right: '30%',
+      top: '30%',
+      right: '10%',
       color:"red"
     }
     ]
@@ -110,8 +112,9 @@
           formatTick={formatTickY}
           color='var(--white)'
         />
-        <AreaStacked/>
         <Line/>
+        <AreaStacked/>
+        
       </Svg>
       <Html>
         <Annotations {annotations}/>
