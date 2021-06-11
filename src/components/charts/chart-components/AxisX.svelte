@@ -76,7 +76,7 @@
   .tick text {
     fill: var(--text-color);
     font-family: var(--bs-font-sans-serif);
-    font-size:1rem;
+    font-size:0.8rem;
     font-weight:bold;
   }
 
@@ -91,4 +91,18 @@
   .axis.snapTicks .tick.tick-0 text {
     transform: translateX(-3px);
   }
+
+  @media (max-width: 992px) {
+      .tick text {
+        transform: rotate(-45deg) translateY(10px) translateX(-20px);
+        position:relative;
+        top:10px;
+        /* Legacy vendor prefixes that you probably don't need... */
+        -webkit-transform: rotate(-45deg) translateY(10px) translateX(-20px);
+        -moz-transform: rotate(-45deg) translateY(10px) translateX(-20px);
+        -ms-transform: rotate(-45deg) translateY(10px) translateX(-20px);
+        -o-transform: rotate(-45deg) translateY(10px) translateX(-20px);
+
+      }
+    }
 </style>

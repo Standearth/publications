@@ -8,6 +8,7 @@
     import AxisX from './chart-components/AxisX.svelte';
     import AxisY from './chart-components/AxisY.svelte';
     import AreaStacked from './chart-components/AreaStacked.svelte';
+    import Line from './chart-components/Line.svelte';
     import Annotations from './chart-components/Annotations.svelte';
   
     // This example loads csv data as json using @rollup/plugin-dsv
@@ -41,34 +42,34 @@
 
     const annotations = [
     {
-      title: 'Fossil Fuel Royalties between 2016 and 2020 (in $ millions)',
+      title: 'Fossil Fuel Royalties & Credits (in $ millions)',
       top: '-15%',
       left: '0%',
       color:"var(--white)"
     },
     {
       text: 'Natural gas royalties',
-      top: '75%',
-      left: '35%',
+      top: '90%',
+      left: '7%',
       color:"var(--white)"
     },
     {
-      text: 'Oil and Gas Commission fees and levies',
-      top: '36%',
-      left: '20%',
+      text: 'Oil and Gas Commission',
+      top: '79%',
+      left: '7%',
       color:"var(--stand-secondary)"
     },
     {
       text: 'Petroleum royalties',
-      top: '15%',
-      left: '35%',
+      top: '72%',
+      left: '7%',
       color:"var(--stand-secondary)"
     },
     {
-      text: '$282M',
-      top: '5%',
-      right: '5%',
-      color:"var(--white)"
+      title: 'Deep Well Royalty Credits',
+      top: '10%',
+      right: '30%',
+      color:"red"
     }
     ]
   </script>
@@ -102,7 +103,7 @@
     >
       <Svg>
         <AxisX
-          tickMarks={true}
+          gridlines={false}
           color='var(--white)'
         />
         <AxisY
@@ -110,6 +111,7 @@
           color='var(--white)'
         />
         <AreaStacked/>
+        <Line/>
       </Svg>
       <Html>
         <Annotations {annotations}/>

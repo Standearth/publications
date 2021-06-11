@@ -1,52 +1,26 @@
 <script>
+    import { line } from 'd3-shape';
+    import { scaleOrdinal } from 'd3-scale';
+  
     import { getContext } from 'svelte';
   
-    const { data, xGet, yGet } = getContext('LayerCake');
+    const { data, xGet, yScale, xScale, zGet } = getContext('LayerCake');
   
-    export let stroke = '#ab00d6';
-    let s1 = [];
-    let s2 = [];
-    let s3 = [];
-    
-    $data.forEach(d => {
-      if(d.X1 == 'Total') {
-        s1.push(d.val)
-      }
-    });
-    s1 = $data.filter(d => d.X1 == 'Petroleum royalties');
-    s2 = $data.filter(d => d.X1 == 'Oil and Gas Commission fees and levies');
-    s3 = $data.filter(d => d.X1 == 'Natural gas royalties');
-    console.log(s1);
-  
-    $: path1 = 'M' + s1
-      .map(d => {
-        return $xGet(d)+50 + ',' + $yGet(d);
-      })
-      .join('L');
-
-    $: path2 = 'M' + s2
-    .map(d => {
-    return $xGet(d)+50 + ',' + $yGet(d);
-    })
-    .join('L');
-
-    $: path3 = 'M' + s3
-    .map(d => {
-    return $xGet(d)+50 + ',' + $yGet(d);
-    })
-    .join('L');
+    $: lineGen = line()
+      .x(d => $xGet(d)+($xScale.bandwidth() / 2))
+      .y(d => $yScale(d[1]));
   </script>
   
-  <path class='path-line' d='{path1}' stroke='var(--green)'></path>
-  <path class='path-line' d='{path2}' stroke='var(--red)'></path>
-  <path class='path-line' d='{path3}' stroke='var(--yellow)'></path>
-
-  
-  <style>
-    .path-line {
-      fill: none;
-      stroke-linejoin: round;
-      stroke-linecap: round;
-      stroke-width: 4;
-    }
-  </style>
+  <g class="area-group">
+    {#each $data as d}
+    {#if d.key == 'Deep-Well Royalty Credits'}
+      <path
+        class='path-line'
+        d='{lineGen(d)}'
+        stroke="red"
+        stroke-width="3"
+        fill=none
+      ></path>
+      {/if}
+    {/each}
+  </g>

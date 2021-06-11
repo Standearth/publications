@@ -14,10 +14,12 @@
   
   <g class="area-group">
     {#each $data as d}
+    {#if d.key != 'Deep-Well Royalty Credits'}
       <path
         class='path-area'
         d='{areaGen(d)}'
         fill='{$zGet(d)}'
       ></path>
+      {/if}
     {/each}
   </g>
