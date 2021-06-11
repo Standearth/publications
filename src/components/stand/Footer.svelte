@@ -1,5 +1,6 @@
 <script>
   import wordmark from "../../svg/stand/logo.svg";
+  import Boundary from "../helpers/Boundary.svelte";
 
   const links = [
     { name: "about", url: "https://stand.earth/about-us" },
@@ -15,6 +16,7 @@
 </script>
 
 <footer>
+  <Boundary left_spacing={48} color="var(--stand-primary)" orientation="triangle"/>    
   <section class="about">
     <div class="wordmark">
       <a href="https://stand.earth">{@html wordmark}</a>
@@ -43,9 +45,10 @@
     background-color: var(--gray-light);
     color: var(--stand-tertiary);
     font-family: var(--sans);
-    padding: 2em 1em;
-    margin-top: 2em;
+    padding-top: 0px;
+    padding-bottom: 1em;
   }
+
 
   footer p {
     max-width:800px;

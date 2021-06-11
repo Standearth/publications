@@ -1,5 +1,5 @@
 <script>
-  import wordmark from "../../svg/stand/logo.svg";
+  import wordmark from "../../svg/stand/logo_white.svg";
 </script>
 
 <header>
@@ -13,8 +13,10 @@
 
 <style>
   header { 
-    min-width:400px;
+    min-width:350px;
     height:60px;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.4) 100%);
   }
 
   .wordmark {

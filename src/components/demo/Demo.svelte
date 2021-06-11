@@ -4,9 +4,13 @@
   import Icon from "../helpers/Icon.svelte";
   import sampleData from "../../data/demo/sample.csv";
   import copyData from "../../data/demo/copy.json";
+  import Boundary from "../helpers/Boundary.svelte";
 </script>
 
+
+
 <section id="demo">
+  <Boundary left_spacing={23} color="var(--white)"/>
   <!-- copy from google doc -->
   <div>
     <h1>{copyData.headline}</h1>
@@ -83,9 +87,6 @@
 </section>
 
 <style>
-  section {
-    padding: 1rem;
-  }
 
   div {
     margin-bottom: 2rem;

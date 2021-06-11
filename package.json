@@ -28,7 +28,7 @@
     "rollup-plugin-terser": "^7.0.2",
     "shelljs": "^0.8.4",
     "sirv-cli": "^1.0.11",
-    "svelte": "^3.35.0",
+    "svelte": "^3.38.2",
     "svelte-preprocess": "^4.6.9"
   },
   "scripts": {
@@ -40,5 +40,9 @@
     "predeploy": "npm run build",
     "deploy": "rollup -c rollup.config-ssr.js",
     "start": "sirv public"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.1",
+    "sveltestrap": "^5.1.1"
   }
 }
