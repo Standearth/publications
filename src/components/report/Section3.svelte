@@ -29,6 +29,7 @@
     }
 
     .section-copy {
+      margin-top:5%;
       padding:30px;
       width:40%;
       float:left;

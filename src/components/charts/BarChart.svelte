@@ -7,6 +7,7 @@
   import AxisY from './chart-components/AxisY.svelte';
   import Annotations from './chart-components/Annotations.svelte';
   import Labels from './chart-components/Bar.Labels.svelte';
+  import { format, precisionFixed } from 'd3-format';
 
   // This example loads csv data as json using @rollup/plugin-dsv
   import data from './../../data/data1.csv';
@@ -15,10 +16,10 @@
   const yKey = 'Subsidies';
   const years = [];
 
-
+  const formatTickY = d => format(`$.${precisionFixed(d)}s`)(d*1000000)
   const annotations = [
     {
-      text: 'Fossil Fuel Subsidies since 2016',
+      title: 'Fossil Fuel Subsidies (in $ millions)',
       top: '-10%',
       left: '0%',
     },

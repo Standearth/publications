@@ -36,7 +36,7 @@
         <div
           class="layercake-annotation"
           data-id="{i}"
-          style="{fillStyle(d)};color:{d.color};"
+          style="{fillStyle(d)};color:{d.color};background:{d.background};padding-bottom:0px;"
         ><p>{d.text}</p></div>
       {/if}
       
@@ -47,6 +47,15 @@
     .layercake-annotation {
       position: absolute;
       padding-left:5px;
+    }
+
+    p {
+      margin-bottom:0px;
+    }
+
+    h4 {
+      border-left:5px solid var(--stand-primary);
+      padding:5px;
     }
 
   </style>

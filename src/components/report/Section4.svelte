@@ -3,6 +3,7 @@
     import Boundary from "../helpers/Boundary.svelte";
     import Text from "./Text.svelte";
     import summary from "./../../data/summary.json";
+    import Multi from "./../charts/Multi.svelte";
     import { Col, Container, Row } from 'sveltestrap';
     export let boundary_orientation, background, left_spacing, color;
   </script>
@@ -14,19 +15,14 @@
     {/if}
     <Container>
       <Row>
-        <Col sm=10>
+        <Col sm=8>
           <div class="section-copy">
             <Text headline={summary.section_4_headline} copy={summary.section_4_copy} {color}/>
           </div>
         </Col>
         <Col sm={{size:8, offset:4}}>
           <div class="section-chart">
-            
-          </div>
-        </Col>
-        <Col sm=10>
-          <div class="section-copy">
-            <Text copy={summary.section_4_copy_2} {color}/>
+            <Multi />
           </div>
         </Col>
       </Row>
@@ -52,6 +48,7 @@
 
     #flare {
         padding-bottom:4rem;
+        margin-top:50px;
         padding-top:2rem;
         background-position:cover;
         width:100%;
@@ -67,13 +64,14 @@
     }
 
     .section-chart {
-      background:#bbb;
-      height:20px;
-      width:100%;
+      width: 100%;
+      height: 100%;
+      min-height:400px;
     }
 
     .section-copy {
       padding-top:30px;
+      margin-bottom:50px;
     }
   </style>
   

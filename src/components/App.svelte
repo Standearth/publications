@@ -23,7 +23,7 @@
 
 <Section4 boundary_orientation="triangle" left_spacing=18 background="var(--white)" color="var(--stand-tertiary)"/>
 
-<Section5 boundary_orientation="full" left_spacing=63 background="var(--stand-primary)" color="var(--white)"/>
+<Section5 boundary_orientation="full" left_spacing=63 background="var(--white)" color="var(--stand-tertiary)"/>
 
 <Section6 boundary_orientation="triangle" left_spacing=50 background="var(--white)" color="var(--white)"/>
 

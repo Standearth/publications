@@ -9,8 +9,6 @@
   
     // This example loads csv data as json using @rollup/plugin-dsv
     import data from './../../data/data2.csv';
-
-    console.log(data[0]);
   
     const xKey = 'year';
     const yKey = 'val';

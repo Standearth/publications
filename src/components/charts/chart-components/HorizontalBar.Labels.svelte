@@ -4,14 +4,13 @@
 
   // Access the context using the 'LayerCake' keyword
   // Grab some helpful functions
-  const { data, xGet, yGet, xScale } = getContext("LayerCake");
+  const { data, xGet, yGet, yScale } = getContext("LayerCake");
 
   function pickLabel(d) {
-    console.log(d);
-    if (d.Subsidies < 1000) {
-      return "$"+Math.round((d.Subsidies) * 100) / 100+"M";
+    if (d.total < 1000) {
+      return "$"+Math.round((d.total) * 100) / 100+"M";
     } else {
-      return "$"+Math.round((d.Subsidies/1000) * 100) / 100+"B";
+      return "$"+Math.round((d.total/1000) * 100) / 100+"B";
     }
     
   }
@@ -19,7 +18,7 @@
 
 
   {#each $data as d}
-    <p style="left: {$xGet(d)+$xScale.bandwidth()/2}px; top: {$yGet(d)}px;">{pickLabel(d)}</p>
+    <p style="left: {$xGet(d)+$yScale.bandwidth()}px; top: {$yGet(d)}px;">{pickLabel(d)}</p>
   {/each}
 
 

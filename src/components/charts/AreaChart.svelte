@@ -68,10 +68,11 @@
       color:"var(--stand-secondary)"
     },
     {
-      title: 'Deep Well Royalty Credits',
+      text: 'Deep Well Royalty Credits',
       top: '30%',
       right: '10%',
-      color:"red"
+      color:"var(--white)",
+      background:"var(--stand-primary)"
     }
     ]
   </script>

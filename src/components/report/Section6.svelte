@@ -10,7 +10,7 @@
   
   <section class="copy-recommendations" style="background-image:url('assets/img/cover.jpeg');">
     {#if boundary_orientation != "none"}
-      <Boundary left_spacing={left_spacing} color=var(--stand-primary) orientation={boundary_orientation}/>  
+      <Boundary left_spacing={left_spacing} color=var(--white) orientation={boundary_orientation}/>  
     {/if}
     <Container>
       <Row>

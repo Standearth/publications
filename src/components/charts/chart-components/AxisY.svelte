@@ -1,5 +1,6 @@
 <script>
   import { getContext } from 'svelte';
+  import { format } from 'd3-format';
 
   const { padding, xRange, yScale } = getContext('LayerCake');
 
