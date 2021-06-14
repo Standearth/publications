@@ -83,10 +83,6 @@
     data.forEach(d => {
       years.push(d[xKey]);
     });
-
-    console.log(years);
-    console.log(data);
-    console.log(dataLong);
   
     // Make a flat array of the `values` of our nested series
     // we can pluck the `value` field from each item in the array to measure extents
