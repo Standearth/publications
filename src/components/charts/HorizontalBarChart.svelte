@@ -33,7 +33,6 @@
   
     data.forEach(d => {
       d[xKey] = +d[xKey];
-      console.log(d);
       years.push(d[yKey]);
     });
   

@@ -7,7 +7,6 @@
   const { data, xGet, yGet, xScale } = getContext("LayerCake");
 
   function pickLabel(d) {
-    console.log(d);
     if (d.Subsidies < 1000) {
       return "$"+Math.round((d.Subsidies) * 100) / 100+"M";
     } else {

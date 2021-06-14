@@ -37,8 +37,6 @@
       .keys(seriesNames);
   
     const series = stackData(data);
-
-    console.log(series);
   
     const formatTickY = d => format(`.${precisionFixed(d)}s`)(d);
 
