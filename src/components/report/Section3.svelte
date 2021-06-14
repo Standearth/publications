@@ -69,9 +69,7 @@
 
     @media (max-width: 500px) {
       #horgan-cover {
-          width:100%;
-          display:block;
-          height:200px;
+          display:none;
           
       }
 
