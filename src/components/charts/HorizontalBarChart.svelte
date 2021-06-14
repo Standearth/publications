@@ -18,7 +18,7 @@
     const annotations = [
       {
         type: "title",
-        title: 'Revenue Estimates for 2021/2022',
+        title: 'Revenue from oil & gas royalties is less than...',
         top: '-22%',
         left: '0%',
       },
