@@ -15,19 +15,9 @@
     {/if}
     <Container>
       <Row>
-        <Col sm={{size:6}}>
+        <Col sm={{size:8, offset:2}}>
           <div class="section-copy">
             <Text headline={summary.section_5_headline} copy={summary.section_5_copy} {color}/>
-          </div>
-        </Col>
-        <Col sm=6>
-          <div class="section-chart">
-            <HorizontalBar />
-          </div>
-        </Col>
-        <Col sm={{size:8, offset:2}}>
-          <div class="section-copy" style="text-align:center;margin-top:100px;">
-            <Text copy={summary.section_5_copy_2} {color}/>
           </div>
         </Col>
 

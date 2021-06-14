@@ -6,7 +6,7 @@
     import { Col, Container, Row } from 'sveltestrap';
   </script>
   
-  <section class="cover overlay" style="height:{$viewport.height-80}px; background-image:url('assets/img/factor.jpg')">
+  <section class="cover overlay" style="height:{$viewport.height-80}px;min-height:700px; background-image:url('assets/img/factor.jpg')">
     <Header />
       <div class="cover-content align-middle">
         <Container>

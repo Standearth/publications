@@ -7,7 +7,6 @@
   import Section4 from "./report/Section4.svelte";
   import Section5 from "./report/Section5.svelte";
   import Section6 from "./report/Section6.svelte";
-  import Demo from "./demo/Demo.svelte";
   import Footer from "./stand/Footer.svelte";
 </script>
 
@@ -23,8 +22,8 @@
 
 <Section4 boundary_orientation="triangle" left_spacing=18 background="var(--white)" color="var(--stand-tertiary)"/>
 
-<Section5 boundary_orientation="full" left_spacing=63 background="var(--white)" color="var(--stand-tertiary)"/>
+<Section5 boundary_orientation="full" left_spacing=50 background="var(--white)" color="var(--stand-tertiary)"/>
 
-<Section6 boundary_orientation="triangle" left_spacing=50 background="var(--white)" color="var(--white)"/>
+<Section6 boundary_orientation="triangle" left_spacing=45 background="var(--white)" color="var(--white)"/>
 
 <Footer />

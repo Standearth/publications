@@ -19,7 +19,7 @@
       {
         type: "title",
         title: 'Revenue Estimates for 2021/2022',
-        top: '-17%',
+        top: '-22%',
         left: '0%',
       },
     {

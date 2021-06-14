@@ -14,11 +14,27 @@
     }
     
   }
+
+  $: xcoord = d  => {
+    if (d.total > 7000) {
+      return $xGet(d)-20;
+    } else {
+      return $xGet(d)+$yScale.bandwidth()-10;
+    }
+  }
+
+  function pickColor(d) {
+    if (d.total > 7000) {
+      return 'var(--white)';
+    } else {
+      return 'var(--black)';
+    }
+  }
 </script>
 
 
   {#each $data as d}
-    <p style="left: {$xGet(d)+$yScale.bandwidth()}px; top: {$yGet(d)}px;">{pickLabel(d)}</p>
+    <p style="left: {xcoord(d)}px; top: {$yGet(d)+5}px; color: {pickColor(d)}">{pickLabel(d)}</p>
   {/each}
 
 

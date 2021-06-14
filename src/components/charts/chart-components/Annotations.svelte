@@ -77,6 +77,12 @@
       -o-transform: rotate(-90deg);
     }
 
+    @media (max-width: 602px) {
+      .yLabel {
+       display:none;
+      }
+    }
+
     h4 {
       border-left:5px solid var(--stand-primary);
       padding:5px;

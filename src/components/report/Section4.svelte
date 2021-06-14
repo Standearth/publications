@@ -3,7 +3,7 @@
     import Boundary from "../helpers/Boundary.svelte";
     import Text from "./Text.svelte";
     import summary from "./../../data/summary.json";
-    import Multi from "./../charts/Multi.svelte";
+    import HorizontalBar from "./../charts/HorizontalBarChart.svelte";
     import { Col, Container, Row } from 'sveltestrap';
     export let boundary_orientation, background, left_spacing, color;
   </script>
@@ -15,14 +15,19 @@
     {/if}
     <Container>
       <Row>
-        <Col sm=12 lg=8>
+        <Col sm=12 lg=12>
+          <Text headline={summary.section_4_headline} {color}/>
+        </Col>
+      </Row>
+      <Row>
+        <Col sm=12 lg=6>
           <div class="section-copy">
-            <Text headline={summary.section_4_headline} copy={summary.section_4_copy} {color}/>
+            <Text copy={summary.section_4_copy} {color}/>
           </div>
         </Col>
-        <Col sm=12 lg={{size:10, offset:1}}>
+        <Col sm=12 lg=6>
           <div class="section-chart">
-            <Multi />
+            <HorizontalBar />
           </div>
         </Col>
       </Row>
@@ -66,12 +71,14 @@
     .section-chart {
       width: 100%;
       height: 100%;
-      min-height:400px;
+      min-height:350px;
+      padding-top:10%;
+      padding-left:10%;
     }
 
     .section-copy {
-      padding-top:30px;
-      margin-bottom:50px;
+      padding-bottom:0%;
     }
+
   </style>
   

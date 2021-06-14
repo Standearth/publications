@@ -13,7 +13,7 @@
 
 <style>
   header { 
-    min-width:350px;
+    min-width:310px;
     height:60px;
     background: rgb(0,0,0);
     background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.4) 100%);
@@ -37,7 +37,7 @@
   }
 
   .wordmark svg {
-    max-width:150px;
+    max-width:120px;
   }
 
   .wordmark a:hover {
