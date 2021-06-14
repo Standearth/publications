@@ -9,18 +9,18 @@
 
   <meta property="og:title" content="Subsidizing Climate Change 2021" />
   <meta property="og:site_name" content="Stand.earth" />
-  <meta property="og:url" content="https://publications.stand.earth/bc-subsidies" />
+  <meta property="og:url" content="https://publications.stand.earth/bc-subsidies/" />
   <meta property="og:description" content="How the Horgan government continues to sabotage BC’s climate plan with fossil fuel subsidies." />
   <meta property="og:type" content="article" />
   <meta property="og:locale" content="en_US" />
 
-  <meta property="og:image" content="assets/img/flare.jpeg" />
+  <meta property="og:image" content="https://publications.stand.earth/bc-subsidies/assets/img/share.webp" />
   <meta property="og:image:type" content="image/jpeg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="600" />
 
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="https://publications.stand.earth/bc-subsidies" />
+  <meta name="twitter:site" content="https://publications.stand.earth/bc-subsidies/" />
   <meta name="twitter:creator" content="" />
   <meta name="twitter:title" content="Subsidizing Climate Change 2021" />
   <meta name="twitter:description" content="How the Horgan government continues to sabotage BC’s climate plan with fossil fuel subsidies" />

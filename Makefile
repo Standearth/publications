@@ -1,8 +1,8 @@
 PHONY: github pudding
 
 github:
-	rm -rf docs
-	cp -r ssr docs
+	rm -rf docs/bc-subsidies
+	cp -r ssr docs/bc-subsidies
 	git add -A
 	git commit -m "update github pages"
 	git push

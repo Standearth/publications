@@ -41,7 +41,7 @@
         </Col>
         <Col sm=6 lg=4>
           <div id="cta">
-            <a href="https://act.stand.earth/page/22268/action/1" target="blank"><h3>Send our recommendations to John Horgan and his government <Icon name="chevrons-right" stroke="var(--white)" stroke-width=2 width="40" /></h3></a>
+            <a href="https://act.stand.earth/page/30485/action/1?ea.tracking.id=referrals" target="blank"><h3>Send our recommendations to John Horgan and his government <Icon name="chevrons-right" stroke="var(--white)" stroke-width=2 width="40" /></h3></a>
           </div>
         </Col>
 

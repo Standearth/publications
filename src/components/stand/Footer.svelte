@@ -15,8 +15,7 @@
 
 </script>
 
-<footer>
-  <Boundary left_spacing={47} color="var(--stand-primary)" orientation="triangle"/>    
+<footer> 
   <section class="about">
     <div class="wordmark">
       <a href="https://stand.earth">{@html wordmark}</a>
