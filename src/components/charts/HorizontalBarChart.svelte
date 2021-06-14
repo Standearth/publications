@@ -19,7 +19,7 @@
       {
         type: "title",
         title: 'Revenue from oil & gas royalties is less than...',
-        top: '-22%',
+        bottom: '100%',
         left: '0%',
       },
     {

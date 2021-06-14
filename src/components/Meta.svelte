@@ -21,10 +21,10 @@
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="https://publications.stand.earth/bc-subsidies/" />
-  <meta name="twitter:creator" content="" />
+  <meta name="twitter:creator" content="@standearth" />
   <meta name="twitter:title" content="Subsidizing Climate Change 2021" />
   <meta name="twitter:description" content="How the Horgan government continues to sabotage BC’s climate plan with fossil fuel subsidies" />
-  <meta name="twitter:image:src" content="assets/img/flare.jpeg" />
+  <meta name="twitter:image:src" content="https://publications.stand.earth/bc-subsidies/assets/img/share.webp" />
 
   <meta name="robots" content="max-image-preview:large" />
 
