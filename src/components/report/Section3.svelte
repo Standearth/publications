@@ -54,12 +54,13 @@
 
     @media (max-width: 992px) {
       #horgan-cover {
-          width:30%;
+          width:20%;
       }
 
       .section-copy {
-        width:70%;
-        padding-top:10%
+        width:80%;
+        padding-top:1%;
+        font-size:0.8rem;
       }
     }
   </style>

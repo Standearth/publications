@@ -43,6 +43,7 @@
     .section-chart {
       height:100%;
       width:100%;
+      min-height:250px;
       padding-left:10%;
       margin-top:50px;
     }
@@ -50,5 +51,7 @@
     .section-copy {
       padding-top:0px;
     }
+
+    
   </style>
   

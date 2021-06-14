@@ -95,7 +95,7 @@
 
   @media (max-width: 992px) {
       .tick text {
-       max-width:40px;
+       max-width:36px !important;
       }
     }
 </style>

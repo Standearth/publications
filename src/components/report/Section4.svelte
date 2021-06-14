@@ -20,7 +20,7 @@
             <Text headline={summary.section_4_headline} copy={summary.section_4_copy} {color}/>
           </div>
         </Col>
-        <Col sm=12 lg={{size:8, offset:4}}>
+        <Col sm=12 lg={{size:10, offset:1}}>
           <div class="section-chart">
             <Multi />
           </div>

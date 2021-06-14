@@ -78,6 +78,12 @@
         font-size:0.8rem;
         font-weight:bold;
     }
+
+    @media (max-width: 992px) {
+      .tick .text {
+       max-width:36px !important;
+      }
+    }
   /* This looks a little better at 40 percent than 50 */
   .axis.snapTicks .tick:last-child {
     transform: translateX(-40%);
