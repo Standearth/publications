@@ -52,13 +52,31 @@
       background-size: cover;
     }
 
-    @media (max-width: 992px) {
+    @media (max-width: 900px) {
       #horgan-cover {
-          width:20%;
+          width:30%;
+          display:block;
+          height:200px;
+          
       }
 
       .section-copy {
-        width:80%;
+        width:70%;
+        padding-top:1%;
+        font-size:0.8rem;
+      }
+    }
+
+    @media (max-width: 500px) {
+      #horgan-cover {
+          width:100%;
+          display:block;
+          height:200px;
+          
+      }
+
+      .section-copy {
+        width:100%;
         padding-top:1%;
         font-size:0.8rem;
       }
