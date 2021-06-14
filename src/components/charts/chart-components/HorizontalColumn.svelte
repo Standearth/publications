@@ -2,17 +2,15 @@
     import { getContext } from 'svelte';
   
     const { data, xGet, yGet, xScale, yScale, yRange } = getContext('LayerCake');
-    export let fill = 'rgb(244, 127, 39)';
+    export let fill = 'var(--stand-secondary)';
   
     $: columnHeight = d => {
       return $yRange[0] - $yGet(d);
     };
   
     $: fillColor = d => {
-      if (d.Year == '21/22' || d.Year == '22/23' || d.Year == '23/24') {
-        return "rgba(244, 127, 39,0.4)";
-      } else if (d.Year == '16/17' || d.Year == '17/18') {
-        return "#EE2451";
+      if (d.cat == 'Oil & Gas') {
+        return "var(--stand-primary)";
       } else {
         return fill;
       }
@@ -30,7 +28,7 @@
         y="{$yGet(d)}"
         height={$yScale.bandwidth()}
         width="{$xGet(d)}"
-        {fill}
+        fill="{fillColor(d)}"
       ></rect>
     {/each}
   </g>

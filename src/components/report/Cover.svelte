@@ -6,15 +6,15 @@
     import { Col, Container, Row } from 'sveltestrap';
   </script>
   
-  <section class="cover overlay" style="height:{$viewport.height-80}px; background-image:url('assets/img/cover4.png')">
+  <section class="cover overlay" style="height:{$viewport.height-80}px; background-image:url('assets/img/factor.jpg')">
     <Header />
       <div class="cover-content align-middle">
         <Container>
             <Row>
-              <Col sm=12 md=10 lg=12>
+              <Col sm=12 md=10 lg=7>
                 <h1>{summary.title}</h1>
               </Col>
-            <Col sm=12 md=6 lg=8>
+            <Col sm=12 md=6 lg=7>
                 <h2>{@html summary.subtitle}</h2>
             </Col>
             <Col sm=12 md=10 lg=12>
@@ -53,7 +53,10 @@
     h1 {
         font-family:'Montserrat Bold',Helvetica;
         text-align:left;
+        background:var(--stand-primary);
+        padding:2%;
         color:#fff;
+        width:auto;
         font-weight:bold;
     }
 

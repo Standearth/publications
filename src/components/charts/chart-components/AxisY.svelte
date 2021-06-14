@@ -14,6 +14,7 @@
   export let dyTick = -4;
   export let textAnchor = 'start';
   export let color = undefined;
+  export let highlight = false;
 
   $: isBandwidth = typeof $yScale.bandwidth === 'function';
 
@@ -50,7 +51,7 @@
         y='{yTick + (isBandwidth ? $yScale.bandwidth() / 2 : 0)}'
         dx='{isBandwidth ? -9 : dxTick}'
         dy='{isBandwidth ? 4 : dyTick}'
-        style="text-anchor:{isBandwidth ? 'end' : textAnchor};--text-color: {color};"
+        style="text-anchor:{isBandwidth ? 'end' : textAnchor};--text-color: {color};font-weight:{highlight ? 'bold':'normal'}"
       >{formatTick(tick)}</text>
     </g>
   {/each}

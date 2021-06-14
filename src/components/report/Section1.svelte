@@ -13,12 +13,12 @@
     {/if}
     <Container>
       <Row>
-        <Col sm=12 md=6>
+        <Col sm=12 md=12 lg=6 >
           <div class="section-copy">
             <Text headline={summary.section_1_headline} copy={summary.section_1_copy} {color}/>
           </div>
         </Col>
-        <Col sm=12 md=6>
+        <Col sm=12 md=12 lg=6>
           <div class="section-chart">
             <BarChart />
           </div>
@@ -30,7 +30,7 @@
   <style>
     section {
         background: var(--section-background);
-        padding-bottom:4rem;
+        padding-bottom:6rem;
         width:100%;
     }
     .section-chart {

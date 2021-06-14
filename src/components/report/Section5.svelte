@@ -43,6 +43,7 @@
     .section-chart {
       height:100%;
       width:100%;
+      padding-left:10%;
       margin-top:50px;
     }
 

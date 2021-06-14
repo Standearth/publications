@@ -15,7 +15,6 @@
       
     };
     $: getStroke = d => {
-      console.log(d);
       if (d[0].key != 'Actuals ($m)') {
         return "5,5";
       } else {
@@ -24,7 +23,6 @@
     };
 
     $: getStrokeWidth = d => {
-      console.log(d);
       if (d[0].key != 'Actuals ($m)') {
         return "3";
       } else {

@@ -44,6 +44,7 @@
 
     const annotations = [
     {
+      type:"title",
       title: 'Fossil Fuel Royalties & Credits (in $ millions)',
       top: '-15%',
       left: '0%',
@@ -56,7 +57,7 @@
       color:"var(--white)"
     },
     {
-      text: 'Oil and Gas Commission',
+      text: 'Oil and Gas commission',
       top: '72%',
       left: '10%',
       color:"var(--stand-secondary)"
@@ -73,6 +74,20 @@
       right: '10%',
       color:"var(--white)",
       background:"var(--stand-primary)"
+    },
+    {
+      text: "Year",
+      type:"xLabel",
+      bottom:'-11%',
+      left:'45%',
+      color: "var(--white)"
+    },
+    {
+      text: "$ millions",
+      type:"yLabel",
+      top:'45%',
+      left:'-15%',
+      color: "var(--white)"
     }
     ]
   </script>

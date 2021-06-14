@@ -8,16 +8,21 @@
   </script>
   
   
-  <section class="copy-recommendations" style="background-image:url('assets/img/cover.jpeg');">
+  <section class="copy-recommendations" style="background-image:url('assets/img/landscape.webp');">
     {#if boundary_orientation != "none"}
       <Boundary left_spacing={left_spacing} color=var(--white) orientation={boundary_orientation}/>  
+      <a name="take-action"></a>
     {/if}
     <Container>
       <Row>
-        <Col sm=12 lg={{size:8, offset:2}}>
+        <Col sm=12 lg=12>
           <div class="section-copy">
-            <Text headline={summary.section_6_headline} {color}/>
+            <Text headline={summary.section_6_headline} color='var(--stand-tertiary)'/>
           </div>
+        </Col>
+      </Row>
+      <Row>
+        <Col sm=6 lg=8>
 
           <Accordion>
             <AccordionItem active header="{summary.section_6_copy_1_headline}">
@@ -34,6 +39,11 @@
             </AccordionItem>
           </Accordion>
         </Col>
+        <Col sm=6 lg=4>
+          <div id="cta">
+            <a href="https://act.stand.earth/page/22268/action/1" target="blank"><h3>Send our recommendations to John Horgan and his government <Icon name="chevrons-right" stroke="var(--white)" stroke-width=2 width="40" /></h3></a>
+          </div>
+        </Col>
 
       </Row>
     </Container>
@@ -41,6 +51,19 @@
   <div id="form-wrap"><iframe src="https://act.stand.earth/page/21659/data/1" frameBorder="0" class="inner_wrapper"></iframe></div>
   
   <style>
+
+    #cta {
+      background:var(--stand-primary);
+      color:var(--white);
+      border:4px solid var(--white);
+      padding:20px;
+      margin-top:40%;
+    }
+
+    #cta a {
+      color:var(--white);
+    }
+
     .copy-recommendations {
         padding-bottom:4rem;
         background-position:cover;
@@ -52,21 +75,13 @@
 
     .section-copy {
       padding-top:30px;
+      text-align:center;
     }
 
     .copy-content {
       color: var(--stand-tertiary);
     }
 
-    #form-wrap {
-      float: none;
-      width:100%;
-      clear: both;
-      position: relative;
-      min-height: 410px;
-      overflow: hidden;
-      display: block;
-    }
 
     #form-wrap .inner_wrapper {
       position: absolute;
@@ -77,9 +92,26 @@
     }
 
     @media (min-width: 992px) {
-      #form_wrap {
-          min-height: 265px;
+      #form-wrap {
+          min-height: 265px !important;
+          clear:both;
       }
+    }
+    
+    @media (max-width: 700px) {
+      #cta {
+        margin-top:30px;
+      }
+    }
+
+    #form-wrap {
+      float: none;
+      width:100%;
+      clear: both;
+      position: relative;
+      min-height: 540px;
+      overflow: hidden;
+      display: block;
     }
   </style>
   

@@ -19,11 +19,13 @@
   const formatTickY = d => format(`$.${precisionFixed(d)}s`)(d*1000000)
   const annotations = [
     {
+      type:"title",
       title: 'Fossil Fuel Subsidies (in $ millions)',
       top: '-10%',
       left: '0%',
     },
     {
+      type:"image",
       text: "BC NDP",
       image: 'assets/img/ndp.webp',
       top:'15%',
@@ -31,11 +33,26 @@
       width: "80px"
     },
     {
+      type:"icon",
       icon: 'arrow-right',
       width: '30',
       top:'15%',
       left:'25%',
       color: "#F47F27"
+    },
+    {
+      text: "Year",
+      type:"xLabel",
+      bottom:'-11%',
+      left:'45%',
+      color: "#000"
+    },
+    {
+      text: "$ millions",
+      type:"yLabel",
+      top:'45%',
+      left:'-18%',
+      color: "#000"
     }
   ];
 

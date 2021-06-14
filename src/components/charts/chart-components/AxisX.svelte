@@ -14,6 +14,7 @@
   export let dxTick = 0;
   export let dyTick = 0;
   export let color = undefined;
+  export let highlight = false;
 
   $: isBandwidth = typeof $xScale.bandwidth === 'function';
 
@@ -51,7 +52,7 @@
         y='{yTick}'
         dx='{dxTick}'
         dy='{dyTick}'
-        style='--text-color: {color};'
+        style='--text-color: {color};font-weight:{highlight ? 'bold':'normal'}'
         text-anchor='{textAnchor(i)}'>{formatTick(tick)}
         </text>
     </g>
@@ -94,15 +95,7 @@
 
   @media (max-width: 992px) {
       .tick text {
-        transform: rotate(-45deg) translateY(10px) translateX(-20px);
-        position:relative;
-        top:10px;
-        /* Legacy vendor prefixes that you probably don't need... */
-        -webkit-transform: rotate(-45deg) translateY(10px) translateX(-20px);
-        -moz-transform: rotate(-45deg) translateY(10px) translateX(-20px);
-        -ms-transform: rotate(-45deg) translateY(10px) translateX(-20px);
-        -o-transform: rotate(-45deg) translateY(10px) translateX(-20px);
-
+       max-width:40px;
       }
     }
 </style>

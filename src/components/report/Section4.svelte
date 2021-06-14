@@ -15,12 +15,12 @@
     {/if}
     <Container>
       <Row>
-        <Col sm=8>
+        <Col sm=12 lg=8>
           <div class="section-copy">
             <Text headline={summary.section_4_headline} copy={summary.section_4_copy} {color}/>
           </div>
         </Col>
-        <Col sm={{size:8, offset:4}}>
+        <Col sm=12 lg={{size:8, offset:4}}>
           <div class="section-chart">
             <Multi />
           </div>

@@ -17,10 +17,18 @@
     const years = [];
     const annotations = [
       {
-        title: 'B.C. Rrevenue Estimates for 2021/2022',
+        type: "title",
+        title: 'Revenue Estimates for 2021/2022',
         top: '-17%',
         left: '0%',
-      }
+      },
+    {
+      text: "$ millions",
+      type:"xLabel",
+      bottom:'-15%',
+      left:'40%',
+      color: "#000"
+    }
     ];
   
     data.forEach(d => {
@@ -49,6 +57,7 @@
           gridlines={false}
           baseline={true}
           snapTicks={true}
+          highlight={true}
         />
         <Column/>
       </Svg>

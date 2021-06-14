@@ -4,10 +4,10 @@
 
 <header>
   <div class="wordmark">
-    <a href="https://stand.earth">{@html wordmark}</a>
+    <a href="https://stand.earth" target="_new">{@html wordmark}</a>
   </div>
   <div class="take-action">
-    <a href="https://stand.earth"><button>TAKE ACTION</button></a>
+    <a href="#take-action"><button>TAKE ACTION</button></a>
   </div>
 </header>
 

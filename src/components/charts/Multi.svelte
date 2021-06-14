@@ -28,14 +28,43 @@
 
     const annotations = [
     {
+      type: "title",
       title: "Natural Gas royalty revenue - future estimates vs actual figures",
       top: '-10%',
       left: '0%',
       color:"var(--stand-tertiary)"
+    },
+    {
+      text: "Actual Revenue",
+      top:'50%',
+      left:'5%',
+      color: "#54278f",
+      highlight:true
+    },
+    {
+      text: "Future Estimates",
+      top:'10%',
+      left:'65%',
+      color: "#bcbddc",
+      highlight:false
+    },
+    {
+      text: "Year",
+      type:"xLabel",
+      bottom:'-11%',
+      left:'45%',
+      color: "#000"
+    },
+    {
+      text: "$ millions",
+      type:"yLabel",
+      top:'45%',
+      left:'-12%',
+      color: "#000",
     }
     ];
 
-    const formatTickY = d => format(`$.${precisionFixed(d)}s`)(d)
+    const formatTickY = d => format(`.${precisionFixed(d)}s`)(d)
   
     const dataLong = seriesNames.map(key => {
       return {

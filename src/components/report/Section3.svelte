@@ -14,7 +14,13 @@
     {/if}
     
     <div class="section-copy">
-      <Text copy={summary.section_3_copy} {color}/>
+      <Container>
+        <Row>
+          <Col lg=12>
+            <Text copy={summary.section_3_copy} {color}/>
+          </Col>
+        </Row>
+    </Container>
     </div>
     <div id="horgan-cover" style="background-image:url('assets/img/horgan.webp');"></div>
   </section>
@@ -44,6 +50,17 @@
       background-position: center; /* Center the image */
       background-repeat: no-repeat; /* Do not repeat the image */
       background-size: cover;
+    }
+
+    @media (max-width: 992px) {
+      #horgan-cover {
+          width:30%;
+      }
+
+      .section-copy {
+        width:70%;
+        padding-top:10%
+      }
     }
   </style>
   

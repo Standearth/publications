@@ -15,12 +15,12 @@
     {/if}
     <Container>
       <Row>
-        <Col sm={{size:12, order:2}} md=6>
+        <Col sm={{size:12, order:2}} md=12 lg=6>
           <div class="section-chart">
             <AreaChart />
           </div>
         </Col>
-        <Col sm={{size:12, order:1}} md=6>
+        <Col sm={{size:12, order:1}} md=12 lg=6>
           <div class="section-copy">
             <Text headline={summary.section_2_headline} copy={summary.section_2_copy} {color}/>
           </div>
