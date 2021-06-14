@@ -63,7 +63,8 @@
 
   .wordmark {
     max-width: 10em;
-    margin: 1em auto;
+    padding: 1em;
+    margin:auto;
   }
 
   .about {
