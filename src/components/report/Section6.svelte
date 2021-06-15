@@ -4,7 +4,7 @@
     import Text from "./Text.svelte";
     import summary from "./../../data/summary.json";
     import { Col, Container, Row, Accordion, AccordionHeader, AccordionItem } from 'sveltestrap';
-    export let boundary_orientation, background, left_spacing, color;
+    export let boundary_orientation, left_spacing;
   </script>
   
   
