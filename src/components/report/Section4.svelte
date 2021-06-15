@@ -78,6 +78,7 @@
 
     .section-copy {
       padding-bottom:0%;
+      padding-top:5%;
     }
 
   </style>
