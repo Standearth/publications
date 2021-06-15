@@ -21,7 +21,7 @@
                 <div class="pdf-share social-share">
                     <a target="_new" href="https://www.stand.earth/sites/stand/files/bc-ff-subsidies-report-final-rev.pdf"><button>DOWNLOAD PDF <Icon name="download" stroke="var(--white)" stroke-width=2 width="40" /></button></a>
                     <a target="_new" href="https://www.facebook.com/sharer.php?u={encodeURIComponent(window.location.href)}"><button class="facebook"><Icon name="facebook" stroke="var(--white)" stroke-width=2 width="30" />Share on Facebook</button></a>
-                    <a target="_new" href="https://twitter.com/intent/tweet?url=https://publications.stand.earth/bc-subsidies/&text=The%20Horgan%20government%20continues%20to%20sabotage%20BC%E2%80%99s%20climate%20plan%20with%20fossil%20fuel%20subsidies.&hashtags=bcpoli,cdnpoli"><button class="twitter"><Icon name="twitter" stroke="var(--white)" stroke-width=2 width="30"/>Share on Twitter</button></a>
+                    <a target="_new" href="https://twitter.com/intent/tweet?url=https://publications.stand.earth/bc-subsidies/&text={encodeURIComponent(summary.tweet_copy)}&hashtags=bcpoli,cdnpoli"><button class="twitter"><Icon name="twitter" stroke="var(--white)" stroke-width=2 width="30"/>Share on Twitter</button></a>
                 </div>
                 <div class="social-share">
                     
