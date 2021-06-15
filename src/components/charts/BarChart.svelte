@@ -27,7 +27,7 @@
     {
       type:"image",
       text: "BC NDP",
-      image: 'assets/img/ndp.webp',
+      image: 'assets/img/ndp.jpg',
       top:'15%',
       left: '25%',
       width: "80px"

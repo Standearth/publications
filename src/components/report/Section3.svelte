@@ -22,7 +22,7 @@
         </Row>
     </Container>
     </div>
-    <div id="horgan-cover" style="background-image:url('assets/img/horgan.webp');"></div>
+    <div id="horgan-cover" style="background-image:url('assets/img/horgan.jpg');"></div>
   </section>
   <style>
     .row {
