@@ -46,13 +46,6 @@
       bottom:'-11%',
       left:'45%',
       color: "#000"
-    },
-    {
-      text: "$ millions",
-      type:"yLabel",
-      top:'45%',
-      right:'103%',
-      color: "#000"
     }
   ];
 
