@@ -31,6 +31,10 @@
     padding-top:12px;  
   }
 
+  .take-action button {
+    background:var(--stand-primary);
+  }
+
   .wordmark a {
     border: none;
     color: var(--fg);
