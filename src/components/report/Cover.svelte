@@ -4,6 +4,12 @@
     import Header from "../stand/Header.svelte";
     import summary from "./../../data/summary.json";
     import { Col, Container, Row } from 'sveltestrap';
+
+    function logEvent(type) {
+        gtag('event', 'click', {
+        method: type
+        });
+    };
   </script>
   
   <section class="cover overlay" style="height:{$viewport.height-80}px;min-height:700px; background-image:url('assets/img/factor.jpg')">
@@ -19,9 +25,9 @@
             </Col>
             <Col sm=12 md=10 lg=12>
                 <div class="pdf-share social-share">
-                    <a target="_new" href="https://www.stand.earth/sites/stand/files/bc-ff-subsidies-report-final-rev.pdf"><button>DOWNLOAD PDF <Icon name="download" stroke="var(--white)" stroke-width=2 width="40" /></button></a>
-                    <a target="_new" href="https://www.facebook.com/sharer.php?u={encodeURIComponent(window.location.href)}"><button class="facebook"><Icon name="facebook" stroke="var(--white)" stroke-width=2 width="30" />Share on Facebook</button></a>
-                    <a target="_new" href="https://twitter.com/intent/tweet?url=https://publications.stand.earth/bc-subsidies/&text={encodeURIComponent(summary.tweet_copy)}&hashtags=bcpoli,cdnpoli"><button class="twitter"><Icon name="twitter" stroke="var(--white)" stroke-width=2 width="30"/>Share on Twitter</button></a>
+                    <a on:click={logEvent('Download')} target="_new" href="https://www.stand.earth/sites/stand/files/bc-ff-subsidies-report-final-rev.pdf"><button>DOWNLOAD PDF <Icon name="download" stroke="var(--white)" stroke-width=2 width="40" /></button></a>
+                    <a on:click={logEvent('Facebook')} target="_new" href="https://www.facebook.com/sharer.php?u={encodeURIComponent(window.location.href)}"><button class="facebook"><Icon name="facebook" stroke="var(--white)" stroke-width=2 width="30" />Share on Facebook</button></a>
+                    <a on:click={logEvent('Twitter')} target="_new" href="https://twitter.com/intent/tweet?url=https://publications.stand.earth/bc-subsidies/&text={encodeURIComponent(summary.tweet_copy)}&hashtags=bcpoli,cdnpoli"><button class="twitter"><Icon name="twitter" stroke="var(--white)" stroke-width=2 width="30"/>Share on Twitter</button></a>
                 </div>
                 <div class="social-share">
                     

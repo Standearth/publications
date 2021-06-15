@@ -11,7 +11,6 @@
   import { Spinner } from 'sveltestrap';
   import { fade, fly } from 'svelte/transition';
   let loading = true;
-  console.log(loading);
   setTimeout(function() {
     return loading = false
     }, 1000);

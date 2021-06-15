@@ -67,6 +67,8 @@
 
     .xLabel, .yLabel {
       font-size:0.8rem;
+      min-width:100px;
+      
     }
 
     .yLabel {

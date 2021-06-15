@@ -63,11 +63,6 @@
         background-size: cover;
     }
 
-    #flare .section-copy {
-      background:rgba(0,0,0,0.5);
-      padding-left:20px;
-    }
-
     .section-chart {
       width: 100%;
       height: 100%;
@@ -77,8 +72,14 @@
     }
 
     .section-copy {
-      padding-bottom:0%;
+      padding-bottom:10%;
       padding-top:5%;
+    }
+
+    #flare .section-copy {
+      background:rgba(0,0,0,0.5);
+      padding-left:20px;
+      padding-bottom:0px;
     }
 
   </style>

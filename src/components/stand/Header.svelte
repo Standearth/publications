@@ -33,6 +33,7 @@
 
   .take-action button {
     background:var(--stand-primary);
+    font-family:var(--sans-bold);
   }
 
   .wordmark a {
