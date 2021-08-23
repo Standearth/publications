@@ -160,6 +160,14 @@ li {
 
 @media (max-width:530px) {
     .nav-item {
-		flex: 0 0 100%;
+		flex: 0 0 50%;
+	}
+
+	.nav-item h3{
+		text-decoration:underline;
+	}
+
+	.nav-item .active h3 {
+		text-decoration:none !important;
 	}
   }
