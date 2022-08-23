@@ -1,7 +1,7 @@
 {
-  "src/styles/fonts/Montserrat/Montserrat-SemiBold.ttf": {
-    "file": "_app/immutable/assets/Montserrat-SemiBold-f227901e.ttf",
-    "src": "src/styles/fonts/Montserrat/Montserrat-SemiBold.ttf"
+  "src/styles/fonts/gotham/Gotham Black Regular.ttf": {
+    "file": "_app/immutable/assets/Gotham Black Regular-16868885.ttf",
+    "src": "src/styles/fonts/gotham/Gotham Black Regular.ttf"
   },
   "src/styles/fonts/Montserrat/Montserrat-Light.ttf": {
     "file": "_app/immutable/assets/Montserrat-Light-e0feb97a.ttf",
@@ -11,12 +11,12 @@
     "file": "_app/immutable/assets/Montserrat-Regular-077cdab1.ttf",
     "src": "src/styles/fonts/Montserrat/Montserrat-Regular.ttf"
   },
-  "src/styles/fonts/gotham/Gotham Black Regular.ttf": {
-    "file": "_app/immutable/assets/Gotham Black Regular-16868885.ttf",
-    "src": "src/styles/fonts/gotham/Gotham Black Regular.ttf"
+  "src/styles/fonts/Montserrat/Montserrat-SemiBold.ttf": {
+    "file": "_app/immutable/assets/Montserrat-SemiBold-f227901e.ttf",
+    "src": "src/styles/fonts/Montserrat/Montserrat-SemiBold.ttf"
   },
   ".svelte-kit/runtime/client/start.js": {
-    "file": "_app/immutable/start-c5a74ae3.js",
+    "file": "_app/immutable/start-96959829.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -41,7 +41,7 @@
       "_index-e025459d.js"
     ],
     "css": [
-      "_app/immutable/assets/__layout-e00af5c1.css"
+      "_app/immutable/assets/__layout-f56ded44.css"
     ],
     "assets": [
       "_app/immutable/assets/Montserrat-Light-e0feb97a.ttf",
@@ -85,7 +85,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "_app/immutable/pages/index.svelte-aa2f9c05.js",
+    "file": "_app/immutable/pages/index.svelte-eb510442.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -117,12 +117,12 @@
     "file": "_app/immutable/assets/fonts-694798f8.css",
     "src": "src/routes/demo/fonts.css"
   },
+  "src/routes/__layout.css": {
+    "file": "_app/immutable/assets/__layout-f56ded44.css",
+    "src": "src/routes/__layout.css"
+  },
   "src/routes/index.css": {
     "file": "_app/immutable/assets/index-20cb618a.css",
     "src": "src/routes/index.css"
-  },
-  "src/routes/__layout.css": {
-    "file": "_app/immutable/assets/__layout-e00af5c1.css",
-    "src": "src/routes/__layout.css"
   }
 }
