@@ -7,16 +7,16 @@
     "file": "_app/immutable/assets/Montserrat-Light-e0feb97a.ttf",
     "src": "src/styles/fonts/Montserrat/Montserrat-Light.ttf"
   },
-  "src/styles/fonts/Montserrat/Montserrat-SemiBold.ttf": {
-    "file": "_app/immutable/assets/Montserrat-SemiBold-f227901e.ttf",
-    "src": "src/styles/fonts/Montserrat/Montserrat-SemiBold.ttf"
-  },
   "src/styles/fonts/Montserrat/Montserrat-Regular.ttf": {
     "file": "_app/immutable/assets/Montserrat-Regular-077cdab1.ttf",
     "src": "src/styles/fonts/Montserrat/Montserrat-Regular.ttf"
   },
+  "src/styles/fonts/Montserrat/Montserrat-SemiBold.ttf": {
+    "file": "_app/immutable/assets/Montserrat-SemiBold-f227901e.ttf",
+    "src": "src/styles/fonts/Montserrat/Montserrat-SemiBold.ttf"
+  },
   ".svelte-kit/runtime/client/start.js": {
-    "file": "_app/immutable/start-868d7f2e.js",
+    "file": "_app/immutable/start-f4b91b96.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -41,7 +41,7 @@
       "_index-d2eea431.js"
     ],
     "css": [
-      "_app/immutable/assets/__layout-db8b72a3.css"
+      "_app/immutable/assets/__layout-cf6833c7.css"
     ],
     "assets": [
       "_app/immutable/assets/Montserrat-Light-e0feb97a.ttf",
@@ -85,7 +85,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "_app/immutable/pages/index.svelte-246439c1.js",
+    "file": "_app/immutable/pages/index.svelte-d2b1244b.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -94,7 +94,7 @@
       "_index-f57e2fbd.js"
     ],
     "css": [
-      "_app/immutable/assets/index-51b0666f.css"
+      "_app/immutable/assets/index-ccee3a7d.css"
     ]
   },
   "_index-d2eea431.js": {
@@ -118,11 +118,11 @@
     "src": "src/routes/demo/fonts.css"
   },
   "src/routes/index.css": {
-    "file": "_app/immutable/assets/index-51b0666f.css",
+    "file": "_app/immutable/assets/index-ccee3a7d.css",
     "src": "src/routes/index.css"
   },
   "src/routes/__layout.css": {
-    "file": "_app/immutable/assets/__layout-db8b72a3.css",
+    "file": "_app/immutable/assets/__layout-cf6833c7.css",
     "src": "src/routes/__layout.css"
   }
 }
