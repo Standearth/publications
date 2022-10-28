@@ -1,0 +1,128 @@
+{
+  "src/styles/fonts/Montserrat/Montserrat-Light.ttf": {
+    "file": "_app/immutable/assets/Montserrat-Light-e0feb97a.ttf",
+    "src": "src/styles/fonts/Montserrat/Montserrat-Light.ttf"
+  },
+  "src/styles/fonts/Montserrat/Montserrat-SemiBold.ttf": {
+    "file": "_app/immutable/assets/Montserrat-SemiBold-f227901e.ttf",
+    "src": "src/styles/fonts/Montserrat/Montserrat-SemiBold.ttf"
+  },
+  "src/styles/fonts/Montserrat/Montserrat-Regular.ttf": {
+    "file": "_app/immutable/assets/Montserrat-Regular-077cdab1.ttf",
+    "src": "src/styles/fonts/Montserrat/Montserrat-Regular.ttf"
+  },
+  "src/styles/fonts/gotham/Gotham Black Regular.ttf": {
+    "file": "_app/immutable/assets/Gotham Black Regular-16868885.ttf",
+    "src": "src/styles/fonts/gotham/Gotham Black Regular.ttf"
+  },
+  ".svelte-kit/runtime/client/start.js": {
+    "file": "_app/immutable/start-a7c1c9f0.js",
+    "src": ".svelte-kit/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_index-444cbf7e.js",
+      "_index-1676a9a4.js",
+      "_paths-b9644fda.js"
+    ],
+    "dynamicImports": [
+      "src/routes/__layout.svelte",
+      ".svelte-kit/runtime/components/error.svelte",
+      "src/routes/demo/elements.svelte",
+      "src/routes/demo/fonts.svelte",
+      "src/routes/index.svelte"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "_app/immutable/pages/__layout.svelte-3a6634f9.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-444cbf7e.js"
+    ],
+    "css": [
+      "_app/immutable/assets/__layout-f30c4546.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/Montserrat-Light-e0feb97a.ttf",
+      "_app/immutable/assets/Montserrat-SemiBold-f227901e.ttf",
+      "_app/immutable/assets/Montserrat-Regular-077cdab1.ttf",
+      "_app/immutable/assets/Gotham Black Regular-16868885.ttf"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "_app/immutable/error.svelte-c8f34e23.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-444cbf7e.js"
+    ]
+  },
+  "src/routes/demo/elements.svelte": {
+    "file": "_app/immutable/pages/demo/elements.svelte-1723ecb2.js",
+    "src": "src/routes/demo/elements.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-444cbf7e.js"
+    ],
+    "css": [
+      "_app/immutable/assets/elements-83b17d31.css"
+    ]
+  },
+  "src/routes/demo/fonts.svelte": {
+    "file": "_app/immutable/pages/demo/fonts.svelte-ffab7b79.js",
+    "src": "src/routes/demo/fonts.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-444cbf7e.js",
+      "_paths-b9644fda.js"
+    ],
+    "css": [
+      "_app/immutable/assets/fonts-694798f8.css"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "_app/immutable/pages/index.svelte-f3cd9d3d.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-444cbf7e.js",
+      "_index-1676a9a4.js"
+    ],
+    "css": [
+      "_app/immutable/assets/index-3388832c.css"
+    ]
+  },
+  "_index-444cbf7e.js": {
+    "file": "_app/immutable/chunks/index-444cbf7e.js"
+  },
+  "_index-1676a9a4.js": {
+    "file": "_app/immutable/chunks/index-1676a9a4.js",
+    "imports": [
+      "_index-444cbf7e.js"
+    ]
+  },
+  "_paths-b9644fda.js": {
+    "file": "_app/immutable/chunks/paths-b9644fda.js"
+  },
+  "src/routes/demo/elements.css": {
+    "file": "_app/immutable/assets/elements-83b17d31.css",
+    "src": "src/routes/demo/elements.css"
+  },
+  "src/routes/demo/fonts.css": {
+    "file": "_app/immutable/assets/fonts-694798f8.css",
+    "src": "src/routes/demo/fonts.css"
+  },
+  "src/routes/index.css": {
+    "file": "_app/immutable/assets/index-3388832c.css",
+    "src": "src/routes/index.css"
+  },
+  "src/routes/__layout.css": {
+    "file": "_app/immutable/assets/__layout-f30c4546.css",
+    "src": "src/routes/__layout.css"
+  }
+}
