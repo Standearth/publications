@@ -1,22 +1,22 @@
 {
-  "src/styles/fonts/Montserrat/Montserrat-SemiBold.ttf": {
-    "file": "_app/immutable/assets/Montserrat-SemiBold-f227901e.ttf",
-    "src": "src/styles/fonts/Montserrat/Montserrat-SemiBold.ttf"
-  },
-  "src/styles/fonts/Montserrat/Montserrat-Light.ttf": {
-    "file": "_app/immutable/assets/Montserrat-Light-e0feb97a.ttf",
-    "src": "src/styles/fonts/Montserrat/Montserrat-Light.ttf"
-  },
-  "src/styles/fonts/Montserrat/Montserrat-Regular.ttf": {
-    "file": "_app/immutable/assets/Montserrat-Regular-077cdab1.ttf",
-    "src": "src/styles/fonts/Montserrat/Montserrat-Regular.ttf"
+  "src/styles/fonts/Readex_Pro/static/ReadexPro-Bold.ttf": {
+    "file": "_app/immutable/assets/ReadexPro-Bold-c1cc62c5.ttf",
+    "src": "src/styles/fonts/Readex_Pro/static/ReadexPro-Bold.ttf"
   },
   "src/styles/fonts/gotham/Gotham Black Regular.ttf": {
     "file": "_app/immutable/assets/Gotham Black Regular-16868885.ttf",
     "src": "src/styles/fonts/gotham/Gotham Black Regular.ttf"
   },
+  "src/styles/fonts/Montserrat/Montserrat-Regular.ttf": {
+    "file": "_app/immutable/assets/Montserrat-Regular-077cdab1.ttf",
+    "src": "src/styles/fonts/Montserrat/Montserrat-Regular.ttf"
+  },
+  "src/styles/fonts/Roboto/Roboto-Regular.ttf": {
+    "file": "_app/immutable/assets/Roboto-Regular-4e147ab6.ttf",
+    "src": "src/styles/fonts/Roboto/Roboto-Regular.ttf"
+  },
   ".svelte-kit/runtime/client/start.js": {
-    "file": "_app/immutable/start-8c41c1e7.js",
+    "file": "_app/immutable/start-e21d2d5e.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -41,11 +41,11 @@
       "_index-180959e6.js"
     ],
     "css": [
-      "_app/immutable/assets/__layout-9733e3dd.css"
+      "_app/immutable/assets/__layout-b39fdff1.css"
     ],
     "assets": [
-      "_app/immutable/assets/Montserrat-Light-e0feb97a.ttf",
-      "_app/immutable/assets/Montserrat-SemiBold-f227901e.ttf",
+      "_app/immutable/assets/ReadexPro-Bold-c1cc62c5.ttf",
+      "_app/immutable/assets/Roboto-Regular-4e147ab6.ttf",
       "_app/immutable/assets/Montserrat-Regular-077cdab1.ttf",
       "_app/immutable/assets/Gotham Black Regular-16868885.ttf"
     ]
@@ -85,7 +85,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "_app/immutable/pages/index.svelte-601b5b15.js",
+    "file": "_app/immutable/pages/index.svelte-4df3d860.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -94,7 +94,7 @@
       "_index-e989b4b3.js"
     ],
     "css": [
-      "_app/immutable/assets/index-103a5821.css"
+      "_app/immutable/assets/index-185f9199.css"
     ]
   },
   "_index-180959e6.js": {
@@ -113,16 +113,16 @@
     "file": "_app/immutable/assets/elements-83b17d31.css",
     "src": "src/routes/demo/elements.css"
   },
-  "src/routes/__layout.css": {
-    "file": "_app/immutable/assets/__layout-9733e3dd.css",
-    "src": "src/routes/__layout.css"
-  },
-  "src/routes/index.css": {
-    "file": "_app/immutable/assets/index-103a5821.css",
-    "src": "src/routes/index.css"
-  },
   "src/routes/demo/fonts.css": {
     "file": "_app/immutable/assets/fonts-694798f8.css",
     "src": "src/routes/demo/fonts.css"
+  },
+  "src/routes/index.css": {
+    "file": "_app/immutable/assets/index-185f9199.css",
+    "src": "src/routes/index.css"
+  },
+  "src/routes/__layout.css": {
+    "file": "_app/immutable/assets/__layout-b39fdff1.css",
+    "src": "src/routes/__layout.css"
   }
 }
