@@ -1,22 +1,22 @@
 {
-  "src/styles/fonts/Readex_Pro/static/ReadexPro-Bold.ttf": {
-    "file": "_app/immutable/assets/ReadexPro-Bold-c1cc62c5.ttf",
-    "src": "src/styles/fonts/Readex_Pro/static/ReadexPro-Bold.ttf"
-  },
   "src/styles/fonts/gotham/Gotham Black Regular.ttf": {
     "file": "_app/immutable/assets/Gotham Black Regular-16868885.ttf",
     "src": "src/styles/fonts/gotham/Gotham Black Regular.ttf"
   },
-  "src/styles/fonts/Montserrat/Montserrat-Regular.ttf": {
-    "file": "_app/immutable/assets/Montserrat-Regular-077cdab1.ttf",
-    "src": "src/styles/fonts/Montserrat/Montserrat-Regular.ttf"
+  "src/styles/fonts/Readex_Pro/static/ReadexPro-Bold.ttf": {
+    "file": "_app/immutable/assets/ReadexPro-Bold-c1cc62c5.ttf",
+    "src": "src/styles/fonts/Readex_Pro/static/ReadexPro-Bold.ttf"
   },
   "src/styles/fonts/Roboto/Roboto-Regular.ttf": {
     "file": "_app/immutable/assets/Roboto-Regular-4e147ab6.ttf",
     "src": "src/styles/fonts/Roboto/Roboto-Regular.ttf"
   },
+  "src/styles/fonts/Montserrat/Montserrat-Regular.ttf": {
+    "file": "_app/immutable/assets/Montserrat-Regular-077cdab1.ttf",
+    "src": "src/styles/fonts/Montserrat/Montserrat-Regular.ttf"
+  },
   ".svelte-kit/runtime/client/start.js": {
-    "file": "_app/immutable/start-e21d2d5e.js",
+    "file": "_app/immutable/start-349eba24.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -41,7 +41,7 @@
       "_index-180959e6.js"
     ],
     "css": [
-      "_app/immutable/assets/__layout-b39fdff1.css"
+      "_app/immutable/assets/__layout-542fe0a6.css"
     ],
     "assets": [
       "_app/immutable/assets/ReadexPro-Bold-c1cc62c5.ttf",
@@ -85,7 +85,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "_app/immutable/pages/index.svelte-4df3d860.js",
+    "file": "_app/immutable/pages/index.svelte-da23b72d.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -94,7 +94,7 @@
       "_index-e989b4b3.js"
     ],
     "css": [
-      "_app/immutable/assets/index-185f9199.css"
+      "_app/immutable/assets/index-6fac24bf.css"
     ]
   },
   "_index-180959e6.js": {
@@ -118,11 +118,11 @@
     "src": "src/routes/demo/fonts.css"
   },
   "src/routes/index.css": {
-    "file": "_app/immutable/assets/index-185f9199.css",
+    "file": "_app/immutable/assets/index-6fac24bf.css",
     "src": "src/routes/index.css"
   },
   "src/routes/__layout.css": {
-    "file": "_app/immutable/assets/__layout-b39fdff1.css",
+    "file": "_app/immutable/assets/__layout-542fe0a6.css",
     "src": "src/routes/__layout.css"
   }
 }
