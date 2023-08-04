@@ -1,11 +1,11 @@
 {
-  "src/styles/fonts/gotham/Gotham Black Regular.ttf": {
-    "file": "_app/immutable/assets/Gotham Black Regular-16868885.ttf",
-    "src": "src/styles/fonts/gotham/Gotham Black Regular.ttf"
-  },
   "src/styles/fonts/Readex_Pro/static/ReadexPro-Bold.ttf": {
     "file": "_app/immutable/assets/ReadexPro-Bold-c1cc62c5.ttf",
     "src": "src/styles/fonts/Readex_Pro/static/ReadexPro-Bold.ttf"
+  },
+  "src/styles/fonts/gotham/Gotham Black Regular.ttf": {
+    "file": "_app/immutable/assets/Gotham Black Regular-16868885.ttf",
+    "src": "src/styles/fonts/gotham/Gotham Black Regular.ttf"
   },
   "src/styles/fonts/Roboto/Roboto-Regular.ttf": {
     "file": "_app/immutable/assets/Roboto-Regular-4e147ab6.ttf",
@@ -16,7 +16,7 @@
     "src": "src/styles/fonts/Montserrat/Montserrat-Regular.ttf"
   },
   ".svelte-kit/runtime/client/start.js": {
-    "file": "_app/immutable/start-349eba24.js",
+    "file": "_app/immutable/start-29a45628.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -85,7 +85,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "_app/immutable/pages/index.svelte-da23b72d.js",
+    "file": "_app/immutable/pages/index.svelte-6c056b9e.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -109,10 +109,6 @@
   "_paths-b9644fda.js": {
     "file": "_app/immutable/chunks/paths-b9644fda.js"
   },
-  "src/routes/demo/elements.css": {
-    "file": "_app/immutable/assets/elements-83b17d31.css",
-    "src": "src/routes/demo/elements.css"
-  },
   "src/routes/demo/fonts.css": {
     "file": "_app/immutable/assets/fonts-694798f8.css",
     "src": "src/routes/demo/fonts.css"
@@ -120,6 +116,10 @@
   "src/routes/index.css": {
     "file": "_app/immutable/assets/index-6fac24bf.css",
     "src": "src/routes/index.css"
+  },
+  "src/routes/demo/elements.css": {
+    "file": "_app/immutable/assets/elements-83b17d31.css",
+    "src": "src/routes/demo/elements.css"
   },
   "src/routes/__layout.css": {
     "file": "_app/immutable/assets/__layout-542fe0a6.css",
